@@ -1,0 +1,46 @@
+# Maven build output
+target/
+
+# Compiled Java classes
+*.class
+
+# IDE files - IntelliJ IDEA
+.idea/
+*.iml
+
+# IDE files - Eclipse
+.classpath
+.project
+.settings/
+
+# VS Code
+.vscode/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Logs
+*.log
+logs/
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Test reports
+test-output/
+surefire-reports/
+allure-results/
+allure-report/
+
+# Environment and secrets
+.env
+.env.*
+!.env.example
+
+# Java crash logs
+hs_err_pid*
+
